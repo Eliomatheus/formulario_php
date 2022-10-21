@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <form action="server.php" method="post">
+        <div class="main-login">
+            <div class=" left-login">
+                <h1>Faça seu login<br>E se surpreenda</h1>
+                <img src="./animação/animacao.svg" class="left-login-image" alt="Animação de login">
+            </div>
+
+        <div class="right-login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="textfield">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário" required>
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" required>
+                </div>
+                <button class="btn-login">Enviar</button>
+                <input type="reset" name="reset" value="Cancelar" class="cancela-login" formnovalidate>
+            </div>
+        </div>
+        </div>
+    </form>    
+</body>
+</html>
